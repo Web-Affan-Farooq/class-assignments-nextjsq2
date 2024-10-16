@@ -1,0 +1,12 @@
+.section-all {
+    width: auto;
+    padding: 40px;
+    height: 100vh;
+    background: black;
+}
+.section-all h1 ,.section-all h2 {
+    margin: 15px 0px;
+}
+.section-all h1 {
+    font-size: 3rem;
+}

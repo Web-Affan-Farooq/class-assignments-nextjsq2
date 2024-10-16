@@ -1,0 +1,19 @@
+import React from 'react';
+import "../../styles/section-all.css";
+
+const Services = () => {
+    return (
+        <div>
+            <section className="section-all">
+                <div className="content">
+                    <h1>This Is Services Page</h1>
+                    <h2>Follow the links to navigate</h2>
+                    <br />
+                    <p>This is second assignment ...</p>
+                </div>
+            </section>      
+          </div>
+    )
+}
+
+export default Services;
