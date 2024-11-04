@@ -1,0 +1,3 @@
+I've Listen someone is talking that If You want to master an art, just taught that to your beginner.
+Assalamo alikum. Exited to share my new class assignment a brief presentation on Next.JS and React.JS.
+This Presentation cover most concepts, from very beginning to very advanced and also containing perequisites to learn Them . This guide leads you to building your first app in Next.JS and cover the most topics that you'll definitely have to know as a Next.JS developer . Just take a look

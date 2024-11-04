@@ -10,7 +10,7 @@ const Button = ({ type }: Button) => {
         )
     }else if(type === "small") {
         return (
-            <button type="button" className='bg-blue-700 text-white md:px-8 px-0 py-2 rounded-xl font-bold text-1xl transition md:block hidden'>Click</button>
+            <button type="button" className='bg-blue-700 text-white md:px-8 px-0 py-2 rounded-xl font-bold text-1xl transition block'>Click</button>
         )
     } 
     else {

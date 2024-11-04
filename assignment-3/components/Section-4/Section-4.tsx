@@ -10,7 +10,7 @@ const Section_4 = () => {
              <br />
              <br />
             <section className='flex md:flex-row flex-col justify-center align-middle gap-20 text-center w-full' id='section-4'>
-                <form action="" className='text-center'>
+                <form action="" className='text-center flex flex-col flex-wrap justify-center align-middle gap-2'>
                     <fieldset className='border-2 border-solid border-black p-3'>
                         <legend className='rounded-2xl bg-black py-1 px-5 text-white'>Email</legend>
                         <br />
