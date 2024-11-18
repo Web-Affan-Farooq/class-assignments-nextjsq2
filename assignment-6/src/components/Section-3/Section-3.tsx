@@ -14,7 +14,7 @@ const Section_3 = () => {
       <br /><br /><br />
       <div className="flex flex-row flex-wrap justify-evenly align-middle items-center">
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/2.svg"}
@@ -33,7 +33,7 @@ const Section_3 = () => {
         </div>
 
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/1.svg"}
@@ -52,7 +52,7 @@ const Section_3 = () => {
         </div>
 
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/3.svg"}
@@ -70,7 +70,7 @@ const Section_3 = () => {
           </div>
         </div>
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/8.svg"}
@@ -88,7 +88,7 @@ const Section_3 = () => {
           </div>
         </div>
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/7.svg"}
@@ -106,7 +106,7 @@ const Section_3 = () => {
           </div>
         </div>
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/4.svg"}
@@ -124,7 +124,7 @@ const Section_3 = () => {
           </div>
         </div>
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/6.svg"}
@@ -142,7 +142,7 @@ const Section_3 = () => {
           </div>
         </div>
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/5.svg"}
@@ -160,7 +160,7 @@ const Section_3 = () => {
           </div>
         </div>
 
-        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px]">
+        <div className="flex py-2 flex-row flex-nowrap justify-evenly items-center h-[120px] w-[400px] max-sm:justify-center max-sm:gap-10">
           <div>
           <Image
             src={"/images/section-3-images/9.svg"}
@@ -180,7 +180,13 @@ const Section_3 = () => {
 
       </div>
       <br />
-      <button type="button" className="py-[12px] px-[24px] border-[1px] border-solid border-black rounded-lg">View Courses</button>
+      <br />
+      <button
+            type="button"
+            className="py-[8px] px-[20px] bg-white border-[1px] border-solid border-black rounded-md"
+          >
+            View Courses
+          </button>
     </section>
   );
 };

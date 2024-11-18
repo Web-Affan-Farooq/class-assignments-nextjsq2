@@ -1,3 +1,26 @@
 .scroll-hidden::-webkit-scrollbar {
     display: none;
 }
+@keyframes scroll-infinite {
+    to {
+        transform: translateX(-100%);
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.list-1 {
+    animation:scroll-infinite 8s linear infinite;
+    transition: all 0.5s ease-in-out;
+}
+.list-2 {
+    animation:scroll-infinite 5s linear infinite;
+    transition: all 0.5s ease-in-out;
+}
+.list-1:hover {
+    animation-play-state: paused;
+    transition: all 0.5s ease-in-out;
+}
+.list-2:hover {
+    animation-play-state: paused;
+    transition: all 0.5s ease-in-out;
+}

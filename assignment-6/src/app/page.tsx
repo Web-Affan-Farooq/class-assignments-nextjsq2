@@ -16,23 +16,27 @@ const Home = () => {
   return (
     <div>
       <Upper_head/>
-      {/* <Header/> */}
+      <Header/><br /><br /><br /><br /><br />
       <Hero/>
       <Section_2/>
+      <br /><br /><br />
       <Section_3/>
       <br />
       <br />
       <br />
+      <br />
+      <br />
       <Section_4/>
-      <br /><br />
+      <br /><br /><br /><br /><br /><br />
       <Section_5/>
-      <br /><br />
+      <br /><br /><br /><br />
       <Section_6/>
       <br /><br /><br />
       <Section_7/>
       <br /><br /><br />
       <Section_8/>
-      <br /><br />
+      <br /><br /><br />
+      <br />
       <Footer/>
       <br /><br />
       <Footer_next/>

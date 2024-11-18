@@ -3,8 +3,9 @@ import React from 'react'
 const Section_4 = () => {
   return (
   <section className='text-center'>
-    <h1 className='text-[48px] font-bold'>Our Achievements</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eos fugiat? Saepe fugit odit tempore, quasi, pariatur praesentium vitae doloribus tenetur fugiat hic cupiditate soluta ea laborum alias nihil delectus?</p>
+    <h1 className='text-[48px] font-bold max-sm:text-[40px]'>Our Achievements</h1>
+    <br />
+    <p className="w-[80vw] m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eos fugiat? Saepe fugit odit tempore, quasi, pariatur praesentium vitae doloribus tenetur fugiat hic cupiditate soluta ea laborum alias nihil delectus?</p>
 
 <br /><br /><br />
     <div className='flex flex-row flex-wrap gap-[20px]'>

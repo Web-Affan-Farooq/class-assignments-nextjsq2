@@ -16,6 +16,9 @@ export default {
         // foreground: "var(--foreground)",
         customblack:'#444444',
       },
+      transitionProperty: {
+        customtransition : "all 0.7s ease-in-out"
+      }
     },
   },
   plugins: [],

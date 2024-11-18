@@ -4,17 +4,17 @@ import Image from "next/image";
 const Section_6 = () => {
   return (
     <section className="w-full text-center">
-      <h1 className="font-bold text-[48px]">Our Team</h1>
+      <h1 className="font-bold text-[48px] max-sm:text-[40px]">Our Team</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
-        mollitia commodi architecto animi{" "}
+        mollitia commodi architecto animi
       </p>
 
       <br />
       <br />
       <br />
       <br />
-      <div className="flex flex-row flex-wrap justify-evenly items-center gap-[64px]">
+      <div className="flex flex-row flex-wrap justify-evenly items-center gap-[150px] max-md:gap-[80px] max-sm:gap-[50px]">
         
         {/* <div className="flex flex-col gap-10 justify-center items-center"> */}
 
