@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Header = () => {
-    const [navStatus, setnavStatus] = useState(false);
+    const [navStatus, setnavStatus] = useState(true);
 
     const handleNav = () => {
         setnavStatus(!navStatus);
