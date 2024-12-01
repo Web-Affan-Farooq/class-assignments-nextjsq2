@@ -12,8 +12,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        // background: "var(--background)",
-        // foreground: "var(--foreground)",
         customblack:'#444444',
       },
       transitionProperty: {
