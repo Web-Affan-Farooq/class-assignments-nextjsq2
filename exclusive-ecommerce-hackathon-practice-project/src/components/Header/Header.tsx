@@ -8,30 +8,37 @@ const Header = () => {
   const [navStatus, setnavStatus] = useState(false);
 
   const handleNav = () => {
-    if (window.innerWidth <= 768) {
+    // if (window.innerWidth <= 768) {
       setnavStatus(!navStatus);
-      console.log("on");
-    }
+    // }
   };
+  
 
   return (
-    <header className="border-2 border-solid border-black p-3 flex flex-row flex-wrap justify-evenly items-center max-lg:justify-between max-lg:px-14 max-lg:gap-3  gap-10">
+    <header className="border-2 border-solid border-black p-5 flex flex-row flex-wrap justify-evenly items-center max-lg:justify-between max-lg:px-14 max-lg:gap-3 max-sm:gap-0">
+
+{/*logo part */}
       <div className="font-bold text-black text-[24px] flex flex-row flex-nowrap gap-4">
+
         <div className="max-md:block hidden" onClick={handleNav}>
           <i className="fa-solid fa-bars-staggered"></i>
         </div>
 
         <div>Exclusive</div>
+
       </div>
 
-      <div className={`flex flex-row flex-wrap gap-10 max-md:invisible`}>
+{/* applied flex-nowrap for overcoming the remaining space issue in navbar */}
+      <div className={`flex flex-row flex-wrap gap-10 max-md:invisible max-md:flex-nowrap max-sm:hidden`}>
         <Link href={"/"}>Home</Link>
         <Link href={"/"}>Contact</Link>
         <Link href={"/"}>About</Link>
         <Link href={"/"}>Signup</Link>
       </div>
 
-      <div className="flex flex-row flex-wrap gap-6 justify-center items-center">
+{/*search bar with buttons and icons */}
+      <div className="required flex flex-row flex-wrap gap-6 justify-start items-center border-2 border-solid border-black max-sm:w-[100vw]">
+        
         <form action="" className="flex flex-row flex-nowrap gap-2">
           <input
             type="text"
@@ -73,40 +80,44 @@ const Header = () => {
           </Link>
         </div>
 
-        <div
-          className={`w-[400px] h-[60vh] bg-black absolute rounded-lg top-10 right-0 text-white flex flex-col flex-nowrap gap-5`}
+      </div>
+
+{/*black sidebar portion */}
+      <div
+          className={`hidden max-md:flex w-[60vw] max-sm:w-[65vw] z-10 h-[60vh] transition-all bg-black absolute rounded-lg top-12 right-0 ${navStatus? "translate-x-[0px]" : "translate-x-[100vw]"} text-white flex flex-col flex-nowrap gap-5`}
         >
           <div className="p-5">
-            <i className="relative text-[24px] fa-solid fa-xmark"></i>
+            <i className="relative text-[24px] fa-solid fa-xmark" onClick={handleNav}></i>
           </div>
+
           <div className="flex flex-col items-center justify-center gap-10">
             <Link
               href={"/"}
-              className="text-[20px] w-[100px] h-[45px] border-b-2 border-solid border-white text-center"
+              className="text-[16px] w-[100px] h-[40px] border-b-2 border-solid border-white text-center"
             >
               Home
             </Link>
             <Link
               href={"/"}
-              className="text-[20px] w-[100px] h-[45px] border-b-2 border-solid border-white text-center"
+              className="text-[16px] w-[100px] h-[40px] border-b-2 border-solid border-white text-center"
             >
               Contact
             </Link>
             <Link
               href={"/"}
-              className="text-[20px] w-[100px] h-[45px] border-b-2 border-solid border-white text-center"
+              className="text-[16px] w-[100px] h-[40px] border-b-2 border-solid border-white text-center"
             >
               About
             </Link>
             <Link
               href={"/"}
-              className="text-[20px] w-[100px] h-[45px] border-b-2 border-solid border-white text-center"
+              className="text-[16px] w-[100px] h-[40px] border-b-2 border-solid border-white text-center"
             >
               Signup
             </Link>
           </div>
         </div>
-      </div>
+
     </header>
   );
 };

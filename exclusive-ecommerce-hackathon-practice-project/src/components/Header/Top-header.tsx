@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Top_header = () => {
   return (
-    <div className="py-3 bg-black text-white text-center flex flex-row flex-wrap justify-evenly">
+    <div className="py-3 bg-black text-white text-center flex flex-row flex-wrap justify-evenly max-md:hidden">
       <div>
         Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!{" "}
         <Link
