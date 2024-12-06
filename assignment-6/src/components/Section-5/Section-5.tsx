@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Card from "./Card";
 import Image from "next/image";
 
 const Section_5 = () => {

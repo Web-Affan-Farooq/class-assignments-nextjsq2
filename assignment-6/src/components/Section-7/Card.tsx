@@ -12,35 +12,35 @@ const Card = ({statement, userImage, userName, userPassion}: CardInfo) => {
     <div className="border-[1px] border-solid border-black p-5 w-[362px] whitespace-normal">
     <div className="flex flex-row flex-nowrap gap-2 justify-start align-middle items-center">
       <Image
-        src={"/images/section-7-images/vector.svg"}
+        src={"/images/star.svg"}
         alt="stars"
         width={20}
         height={20}
         className="object-cover"
       />
       <Image
-        src={"/images/section-7-images/vector.svg"}
+        src={"/images/star.svg"}
         alt="stars"
         width={20}
         height={20}
         className="object-cover"
       />
       <Image
-        src={"/images/section-7-images/vector.svg"}
+        src={"/images/star.svg"}
         alt="stars"
         width={20}
         height={20}
         className="object-cover"
       />
       <Image
-        src={"/images/section-7-images/vector.svg"}
+        src={"/images/star.svg"}
         alt="stars"
         width={20}
         height={20}
         className="object-cover"
       />
       <Image
-        src={"/images/section-7-images/vector.svg"}
+        src={"/images/star.svg"}
         alt="stars"
         width={20}
         height={20}
@@ -55,7 +55,7 @@ const Card = ({statement, userImage, userName, userPassion}: CardInfo) => {
     <div className="flex flex-row flex-nowrap gap-3 justify-start items-center">
       <Image
         src={userImage}
-        alt="stars"
+        alt="users"
         width={50}
         height={50}
         className="object-cover rounded-full"

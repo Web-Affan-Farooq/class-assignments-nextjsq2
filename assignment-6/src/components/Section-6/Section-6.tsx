@@ -16,7 +16,6 @@ const Section_6 = () => {
       <br />
       <div className="flex flex-row flex-wrap justify-evenly items-center gap-[150px] max-md:gap-[80px] max-sm:gap-[50px]">
         
-        {/* <div className="flex flex-col gap-10 justify-center items-center"> */}
 
           <div className="w-[230px] flex flex-col items-center">
             <Image
@@ -72,11 +71,9 @@ const Section_6 = () => {
 
           </div>
 
-        {/* </div> */}
 
 
 
-        {/* <div className="flex flex-col gap-10 justify-center items-center"> */}
 
          
 
@@ -134,13 +131,7 @@ const Section_6 = () => {
 
           </div>
 
-        {/* </div> */}
 
-
-
-        {/* <div className="flex flex-col gap-10 justify-center items-center"> */}
-
-          
 
           <div className="w-[230px] flex flex-col items-center">
             <Image
@@ -196,7 +187,6 @@ const Section_6 = () => {
 
           </div>
 
-        {/* </div> */}
 
       </div>
     </section>
