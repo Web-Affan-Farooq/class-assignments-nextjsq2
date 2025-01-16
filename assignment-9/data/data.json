@@ -1,0 +1,114 @@
+[
+      {
+        "id": 1,
+        "name": "Sleek Coffee Table",
+        "brand": "Modern Home",
+        "short_description": "Stylish & functional coffee table for any home.",
+        "long_description": "Crafted from high-quality materials, this table features a sleek design.",
+        "rating": 4.5,
+        "price": 199.99,
+        "availability": "In Stock",
+        "image": "/images/products/1.jpeg" 
+      },
+      {
+        "id": 2,
+        "name": "Cozy Throw Blanket",
+        "brand": "Luxe Textiles",
+        "short_description": "Luxurious throw blanket for snuggling up.",
+        "long_description": "Made from premium microfiber, this blanket is incredibly soft.",
+        "rating": 4.8,
+        "price": 49.99,
+        "availability": "In Stock",
+        "image": "/images/products/2.jpeg" 
+      },
+      {
+        "id": 3,
+        "name": "Rustic Wall Clock",
+        "brand": "Vintage Charm",
+        "short_description": "Vintage-inspired wall clock for your kitchen.",
+        "long_description": "Distressed wood finish and antique-style numerals.",
+        "rating": 4.2,
+        "price": 69.99,
+        "availability": "In Stock",
+        "image":"/images/products/3.jpeg"  
+      },
+      {
+        "id": 4,
+        "name": "Modern Ceramic Mugs",
+        "brand": "Daily Grind",
+        "short_description": "Sleek & smooth ceramic mugs for everyday use.",
+        "long_description": "Stylish design with a smooth matte finish.",
+        "rating": 4.7,
+        "price": 24.99,
+        "availability": "In Stock",
+        "image":"/images/products/4.jpeg"  
+      },
+
+
+      {
+        "id": 5,
+        "name": "Aromatherapy Diffuser",
+        "brand": "Zen Vibes",
+        "short_description": "Create a calming atmosphere with essential oils.",
+        "long_description": "Diffuser with sleek design and soothing scents.",
+        "rating": 4.3,
+        "price": 39.99,
+        "availability": "In Stock",
+        "image":"/images/products/5.jpeg" 
+      },
+      {
+        "id": 6,
+        "name": "Bamboo Bath Mat",
+        "brand": "Eco Bath",
+        "short_description": "Soft & absorbent bamboo bath mat.",
+        "long_description": "Luxurious bamboo mat with non-slip backing.",
+        "rating": 4.6,
+        "price": 29.99,
+        "availability": "In Stock",
+        "image":"/images/products/6.jpeg" 
+      },
+      {
+        "id": 7,
+        "name": "Cotton Sheet Set",
+        "brand": "Sleep Serenity",
+        "short_description": "Soft & breathable cotton sheets for comfort.",
+        "long_description": "Premium cotton sheets with deep pockets for a perfect fit.",
+        "rating": 4.9,
+        "price": 89.99,
+        "availability": "In Stock",
+        "image": "/images/products/7.jpeg" 
+      },
+      {
+        "id": 8,
+        "name": "Bluetooth Speaker",
+        "brand": "Sound Wave",
+        "short_description": "Portable speaker with powerful sound & mic.",
+        "long_description": "Enjoy music & hands-free calls with this speaker.",
+        "rating": 4.4,
+        "price": 59.99,
+        "availability": "In Stock",
+        "image":"/images/products/8.jpeg" 
+      },
+      {
+        "id": 9,
+        "name": "LED Desk Lamp",
+        "brand": "Light Up",
+        "short_description": "Adjustable desk lamp with multiple settings.",
+        "long_description": "Create perfect lighting for any task.",
+        "rating": 4.7,
+        "price": 34.99,
+        "availability": "In Stock",
+        "image": "/images/products/9.jpeg" 
+      },
+      {
+        "id": 10,
+        "name": "Kitchen Mat",
+        "brand": "Comfort Step",
+        "short_description": "Anti-fatigue mat with cushioning support.",
+        "long_description": "Reduce fatigue & back pain while cooking.",
+        "rating": 4.5,
+        "price": 19.99,
+        "availability": "In Stock",
+        "image": "/images/products/10.jpeg" 
+      }
+    ]
